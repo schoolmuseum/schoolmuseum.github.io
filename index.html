@@ -24,15 +24,13 @@
 </head>
 <body>
 
-     <!-- PRE LOADER 
+     <!-- PRE LOADER -->
      <section class="preloader">
           <div class="spinner">
-
                <span class="spinner-rotate"></span>
-               
           </div>
      </section>
--->
+
 
      <!-- MENU -->
      <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
@@ -189,6 +187,16 @@
      <script src="js/smoothscroll.js"></script>
      <script src="js/custom.js"></script>
   -->
+<!-- Скрипты -->
+<script>
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+  }
+</script>	
 
 </body>
 </html>
