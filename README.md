@@ -27,6 +27,7 @@
 
 ## Конечный автомат на регулярных выражениях с фильтром нецензурной лексики
 - автомат на JaVA Script
+- https://github.com/luizanao/JS-turing-machine/tree/master - пример, в котором стоит разобраться
 - https://github.com/PixxxeL/djantimat - прикольный примерчик
 
 # Дополнительные материалы
