@@ -8,7 +8,7 @@
 ## Подключение к бд
 - https://stackoverflow.com/questions/31655085/database-on-a-personal-github-page
 - https://github.com/phiresky/blog/blob/master/posts/2021/hosting-sqlite-databases-on-github-pages.md - статья на английском про подключение бд к статическому вебсайту
-
+- https://artemsannikov.ru/db/firebase/firebase-web/add-firebase-in-web-application/ - статья на русском про подключение firebase (достойна внимания!)
 
 ## Чат-бот в Telegram
 - плейлист: создание чат-бота на питоне - https://www.youtube.com/watch?v=CR7B19aJo9A
