@@ -7,18 +7,5 @@
 - 
 ## animate.css
 
-## bootstrap.min.css
-
-## dropdown.css
-- стили для всплывающего меню dropdown
-- 
-
-## font-awesome.min.css
-
-## magnific-popup.css
-
-## owl.carousel.css
-
-## owl.theme.default.min.css
 
 
