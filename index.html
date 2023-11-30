@@ -4,6 +4,7 @@
 
      <title>Виртуальный музей средней общеобразовательной Верхне-Ульхунской школы</title>
 
+     <!-- CONTACT -->
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
      <meta name="description" content="">
@@ -11,19 +12,21 @@
      <meta name="author" content="">
      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+     <!-- подключение css файлов -->
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link rel="stylesheet" href="css/font-awesome.min.css">
      <link rel="stylesheet" href="css/animate.css">
      <link rel="stylesheet" href="css/owl.carousel.css">
      <link rel="stylesheet" href="css/owl.theme.default.min.css">
      <link rel="stylesheet" href="css/magnific-popup.css">
+     <link rel="stylesheet" href="css/dropdown.css">
 
      <!-- MAIN CSS -->
      <link rel="stylesheet" href="css/templatemo-style.css">
 
 </head>
 <body>
-     <!-- MENU -->
+     <!-- шапка сайта -->
      <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
           <div class="container">
 
@@ -34,30 +37,39 @@
                          <span class="icon icon-bar"></span>
                     </button>
 
-                    <!-- lOGO TEXT HERE -->
+                    <!-- лекст лого -->
                     <a href="index.html" class="navbar-brand">Виртуальный музей</a>
                </div>
 
-               <!-- MENU LINKS -->
+               <!-- шапка с кнопками -->
                <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-nav-first">
                          <li><a href="#home" class="smoothScroll">Главная</a></li>
                          <li><a href="#about" class="smoothScroll">Информация</a></li>
                          <li><a href="#team" class="smoothScroll">Экскурсии</a></li>
-                         <li><a href="#menu" class="smoothScroll">Статьи</a></li>
+                         <li><a href="#article.html" class="smoothScroll">Статьи</a></li>
                          <li><a href="#contact" class="smoothScroll">Контакты</a></li>
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
                          <a href="#footer" class="section-btn">Бронь экскурсий</a>
                     </ul>
+		       
+		<!-- всплывающее меню -->
                </div>
+		  <div class="dropdown">
+ 		 <button class="dropbtn">Dropdown</button>
+  			<div class="dropdown-content">
+   				 <a href="#https://ok.ru/group/59325617078468">Одноклассники</a>
+   				 <a href="#https://www.youtube.com/@ivanf5964">YouTube</a>
+ 			 </div>
+		</div>
 
           </div>
      </section>
 
 
-     <!-- HOME -->
+     <!-- домашняя страница -->
      <section id="home" class="slider" data-stellar-background-ratio="0.5">
           <div class="row">
 		  
@@ -118,12 +130,14 @@
             3. Click "Share" and choose "Embed map" tab
             4. Copy only URL and paste it within the src="" field below
 	-->
+		 <!-- штука с гугл картами -->
                     <div class="wow fadeInUp col-md-6 col-sm-12" data-wow-delay="0.4s">
                          <div id="google-map">
                               <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1305.2579276339359!2d112.5383827801753!3d49.5854966081436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0JLQtdGA0YXQvdC40Lkg0KPQu9GM0YXRg9C9LCDQl9Cw0LHQsNC50LrQsNC70YzRgdC60LjQuSDQutGA0LDQuSDRg9C7LiDQqNC60L7Qu9GM0L3QsNGPLCAx!5e1!3m2!1sru!2sru!4v1697685759411!5m2!1sru!2sru" allowfullscreen></iframe>
                          </div>
                     </div>    
 
+		    <!--   
                     <div class="col-md-6 col-sm-12">
 
                          <div class="col-md-12 col-sm-12">
@@ -131,50 +145,31 @@
                                    <h2>Задать вопрос</h2>
                               </div>
                          </div>
+		       -->
 
-                         <!-- CONTACT FORM -->
+                         <!-- форма контактов, снести -->
+			 <!-- 
                          <form action="#" method="post" class="wow fadeInUp" id="contact-form" role="form" data-wow-delay="0.8s">
-
-                              <!-- IF MAIL SENT SUCCESSFUL  // connect this with custom JS -->
                               <h6 class="text-success">Your message has been sent successfully.</h6>
-                              
-                              <!-- IF MAIL NOT SENT -->
                               <h6 class="text-danger">E-mail must be valid and message must be longer than 1 character.</h6>
-
                               <div class="col-md-6 col-sm-6">
                                    <input type="text" class="form-control" id="cf-name" name="name" placeholder="Full name">
                               </div>
-
                               <div class="col-md-6 col-sm-6">
                                    <input type="email" class="form-control" id="cf-email" name="email" placeholder="Email address">
                               </div>
-
                               <div class="col-md-12 col-sm-12">
                                    <input type="text" class="form-control" id="cf-subject" name="subject" placeholder="Subject">
-
                                    <textarea class="form-control" rows="6" id="cf-message" name="message" placeholder="Tell about your project"></textarea>
-
                                    <button type="submit" class="form-control" id="cf-submit" name="submit">Send Message</button>
                               </div>
+			    -->
                          </form>
                     </div>
 
                </div>
           </div>
      </section>          
-
-     <!-- SCRIPTS -->
-    <!-- This is a comment -->
-<!--
-     <script src="js/jquery.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/jquery.stellar.min.js"></script>
-     <script src="js/wow.min.js"></script>
-     <script src="js/owl.carousel.min.js"></script>
-     <script src="js/jquery.magnific-popup.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/custom.js"></script>
-  -->
 	
 <!-- Скрипты -->
 // подключение firebase к проекту
