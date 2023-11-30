@@ -1,21 +1,21 @@
 # Описание всех файлов, лежащих здесь:
-##animate.css
+## animate.css
 
-##bootstrap.min.css
+## bootstrap.min.css
 
-##dropdown.css
+## dropdown.css
 - стили для всплывающего меню dropdown
 - 
 
-##font-awesome.min.css
+## font-awesome.min.css
 
-##magnific-popup.css
+## magnific-popup.css
 
-##owl.carousel.css
+## owl.carousel.css
 
-##owl.theme.default.min.css
+## owl.theme.default.min.css
 
-##templatemo-style.css
+## templatemo-style.css
 - фон сайта
 - цвет других элементов
 - цвет заголовков, параграфов, кнопокок
