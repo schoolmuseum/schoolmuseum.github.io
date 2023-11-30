@@ -9,7 +9,7 @@ http://www.templatemo.com/tm-515-eatery
   @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
   body {
-    background: #fadbcf;
+    background: #f3f4f6;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
   }
@@ -32,7 +32,7 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   h2 {
-    color: #353535;
+    color: #252525;
     font-size: 2em;
     padding-bottom: 10px;
   }
@@ -44,11 +44,11 @@ http://www.templatemo.com/tm-515-eatery
 
   h3,
   h3 a {
-    color: #454545;
+    color: #252525;
   }
 
   p {
-    color: #757575;
+    color: #252525;
     font-size: 14px;
     font-weight: normal;
     line-height: 24px;
@@ -71,8 +71,9 @@ http://www.templatemo.com/tm-515-eatery
     text-decoration: none !important;
   }
 
+ /*цвет кнопок (бронь экскурсий)*/
   a:hover, a:active, a:focus {
-    color: #ce3232;
+    color: #eab78b;
     outline: none;
   }
 
